@@ -1,1 +1,29 @@
-
+{
+  "project_info": {
+    "project_number": "600745776773",
+    "project_id": "scanit-19d9e",
+    "storage_bucket": "scanit-19d9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600745776773:android:6f38ae953c3bba33917bec",
+        "android_client_info": {
+          "package_name": "com.scanit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ny8wGsNMgXXeQp5NZXWh6m4AQ9i_eF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
