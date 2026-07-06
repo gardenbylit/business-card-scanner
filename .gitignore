@@ -1,0 +1,55 @@
+# Never commit sensitive files
+# Environment and configuration
+.env
+.env.local
+.env.*.local
+
+# Gradle and build
+android/build/
+android/app/build/
+android/.gradle/
+android/gradle.properties
+
+# Signing keys and certificates
+android/app/my-release-key.jks
+*.jks
+*.keystore
+
+# Firebase and Google Services
+# Note: google-services.json should only be in android/app/
+# Do not commit it if you have other team members
+# android/app/google-services.json
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# React Native
+.buckconfig
+.flowconfig
+__generated__
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.github/workflows/secrets.yml
