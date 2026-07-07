@@ -1,2 +1,2 @@
-# business-card-scanner
+# ScanIt
 Scan business card easily
